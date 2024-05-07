@@ -1,9 +1,13 @@
 import React from 'react';
 
 import customTimers from '../assets/portfolio/customTimers.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
+import customTimersHover from '../assets/portfolio/customTimersHover.png';
+import portfolio from '../assets/portfolio/portfolio.png';
+import portfolioHover from '../assets/portfolio/portfolioHover.png';
+import tictactoe from '../assets/portfolio/tictactoe.jpg';
+import tictactoeHover from '../assets/portfolio/tictactoeHover.jpg';
+import typeTheDictionary from '../assets/portfolio/typeTheDictionary.png';
+import typeTheDictionaryHover from '../assets/portfolio/typeTheDictionaryHover.png';
 // import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -11,22 +15,38 @@ const Portfolio = () => {
     const projects = [
         {
             id: 1,
-            src: customTimers,
-            href: "http://custom-timers-s3.s3-website-us-east-1.amazonaws.com/#"
+            src: portfolio,
+            hoverSrc: portfolioHover,
+            alt: "Thumbnail for Portfolio website.",
+            codeHref: "https://github.com/AndrewJCate/Portfolio-Website"
         },
         {
             id: 2,
-            src: installNode,
-            link: '/customTimers'
+            src: customTimers,
+            hoverSrc: customTimersHover,
+            alt: "Thumbnail for Custom Timers website.",
+            demoHref: "https://customtimers.net",
+            codeHref: "https://gitfront.io/r/andrewcate/sqg1uDGywjA4/Custom-Timers-Website/"
         },
         {
             id: 3,
-            src: navbar
+            src: typeTheDictionary,
+            hoverSrc: typeTheDictionaryHover,
+            alt: "Thumbnail for Type The Dictionary game.",
+            codeHref: "https://github.com/AndrewJCate/Typing-The-Dictionary"
         },
         {
             id: 4,
-            src: reactParallax
+            src: tictactoe,
+            hoverSrc: tictactoeHover,
+            alt: "Thumbnail for TicTacToe game.",
+            codeHref: "https://github.com/AndrewJCate/TicTacToeApp"
         },
+        // {
+        //     id: 4,
+        //     src: installNode,
+        //     link: '/customTimers'
+        // },
     ];
 
   return (
@@ -40,23 +60,58 @@ const Portfolio = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
-                {projects.map(({id, src, href, link}) => (
+                {projects.map(({id, src, hoverSrc, alt, demoHref, codeHref, link}) => (
 
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 
                         {/* <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'></img> */}
-                        <img src={src} alt='' className='rounded-md duration-200'></img>
+                        <img 
+                            src={src} 
+                            alt={alt} 
+                            className='rounded-md duration-200 hover:scale-105'
+                            onMouseOver={ e => { e.currentTarget.src = hoverSrc }}
+                            onMouseOut={ e => { e.currentTarget.src = src }}
+                        ></img>
                         
                         <div className='flex justify-center items-center'>
-                            <a 
-                                className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125' 
-                                href={href} 
-                                target='_blank' 
-                                rel="noreferrer"
-                            >
-                                Demo
-                            </a>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Code</button>
+
+                            {demoHref ? (
+                                <div className='flex justify-center items-center'>
+                                    <a 
+                                        className='w-1/2 px-10 py-2 m-4 duration-200 hover:scale-125' 
+                                        href={demoHref} 
+                                        target='_blank' 
+                                        rel="noreferrer"
+                                    >
+                                        Demo
+                                    </a> 
+                                    
+                                    <a 
+                                        className='w-1/2 px-10 py-2 m-4 duration-200 hover:scale-125' 
+                                        href={codeHref} 
+                                        target='_blank' 
+                                        rel="noreferrer"
+                                    >
+                                        Code
+                                    </a>   
+                                </div>
+                            ) : (
+                                <a 
+                                    className='w-auto px-10 py-2 m-4 duration-200 hover:scale-125' 
+                                    href={codeHref} 
+                                    target='_blank' 
+                                    rel="noreferrer"
+                                >
+                                    Code
+                                </a>   
+                            ) }
+                                
+                            {/* <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>
+                                Code
+                            </button> */}
+
+                                
+
                             {/* <Link to={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Demo</Link> */}
                         </div>
 

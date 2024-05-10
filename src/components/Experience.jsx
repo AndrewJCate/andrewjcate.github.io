@@ -1,13 +1,17 @@
 import React from 'react';
-import angular from "../assets/angular.png";
-import css from "../assets/css.png";
-import docker from "../assets/docker.png";
-import html from "../assets/html.png";
-import invision from "../assets/invision.png";
-import java from "../assets/java.png";
-import javascript from "../assets/javascript.png";
-import mysql from "../assets/mysql.png";
-import spring from "../assets/spring.png";
+import angular from "../assets/icons/angular.png";
+import aws from "../assets/icons/aws.png";
+import css from "../assets/icons/css.png";
+import docker from "../assets/icons/docker.png";
+import html from "../assets/icons/html.png";
+import intellij from "../assets/icons/intellij.png";
+import invision from "../assets/icons/invision.png";
+import java from "../assets/icons/java.png";
+import javascript from "../assets/icons/javascript.png";
+import mysql from "../assets/icons/mysql.png";
+import spring from "../assets/icons/spring.png";
+import vscode from "../assets/icons/vscode.png";
+
 
 const Experience = () => {
 
@@ -49,17 +53,17 @@ const Experience = () => {
         },
         {
             id: 6,
-            src: docker,
-            alt: 'Docker logo',
-            title: 'Docker',
-            style: 'shadow-docker-blue'
-        },
-        {
-            id: 7,
             src: spring,
             alt: 'Spring logo',
             title: 'Spring',
             style: 'shadow-spring-green'
+        },
+        {
+            id: 7,
+            src: aws,
+            alt: 'AWS logo',
+            title: 'AWS',
+            style: 'shadow-aws-orange'
         },
         {
             id: 8,
@@ -70,6 +74,27 @@ const Experience = () => {
         },
         {
             id: 9,
+            src: docker,
+            alt: 'Docker logo',
+            title: 'Docker',
+            style: 'shadow-docker-blue'
+        },
+        {
+            id: 10,
+            src: intellij,
+            alt: 'IntelliJ logo',
+            title: 'IntelliJ',
+            style: 'shadow-intellij-purple'
+        },
+        {
+            id: 11,
+            src: vscode,
+            alt: 'VS Code logo',
+            title: 'VS Code',
+            style: 'shadow-vscode-blue-light'
+        },
+        {
+            id: 12,
             src: invision,
             alt: 'Invision logo',
             title: 'Invision',

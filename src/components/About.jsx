@@ -9,11 +9,19 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
 
-            <p className='text-gray-300 text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eaque placeat illo, aut iste, maiores, dicta sed cupiditate at eius accusantium quas? Quod expedita exercitationem quasi quam repellat quo molestias animi minus. In dolor quae nostrum dolore, rem earum illo accusantium consectetur voluptatibus sunt quibusdam dicta eius harum, numquam laudantium!</p>
+            <p className='text-gray-300 text-lg'>Welcome!</p>
 
             <br></br>
 
-            <p className='text-gray-300 text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quibusdam, distinctio et inventore mollitia iure perferendis enim doloremque, quisquam laborum molestiae cupiditate sunt nobis qui odio eius neque aliquid. Ex odit dolores reprehenderit hic enim atque quidem adipisci assumenda esse? Quas illum velit non corporis omnis officiis est, consequuntur sed.</p>
+            <p className='text-gray-300 text-lg'>I grew up and live in the Pacific Northwest with my wife and daughter. I enjoy running, biking, reading, and PC gaming. I have a growing playing card collection. My biggest passion is learning. I spend months delving into topics that have piqued my interest.</p>
+
+            <br></br>
+
+            <p className='text-gray-300 text-lg'>I left my 8 year career in the training field to pursue my passion for programming. After several years of self teaching, I attended a university and earned my degree in Software Engineering. I created this website to showcase some of the projects I have worked on. I am excited to continue growing my skills and expanding my knowledge in this area.</p>
+
+            <br></br>
+
+            <p className='text-gray-300 text-lg'>Send me an email if you would like to explore working on a project together!</p>
 
         </div>
     </div>

@@ -1,13 +1,15 @@
 import React from 'react';
 
-import customTimers from '../assets/portfolio/customTimers.jpg';
-import customTimersHover from '../assets/portfolio/customTimersHover.png';
-import portfolio from '../assets/portfolio/portfolio.png';
-import portfolioHover from '../assets/portfolio/portfolioHover.png';
-import tictactoe from '../assets/portfolio/tictactoe.jpg';
-import tictactoeHover from '../assets/portfolio/tictactoeHover.jpg';
-import typeTheDictionary from '../assets/portfolio/typeTheDictionary.png';
-import typeTheDictionaryHover from '../assets/portfolio/typeTheDictionaryHover.png';
+import customTimers from '../assets/projects/customTimers.jpg';
+import customTimersHover from '../assets/projects/customTimersHover.png';
+import portfolio from '../assets/projects/portfolio.png';
+import portfolioHover from '../assets/projects/portfolioHover.png';
+import progressTracker from '../assets/projects/progressTracker.png';
+import progressTrackerHover from '../assets/projects/progressTrackerHover.png';
+import tictactoe from '../assets/projects/tictactoe.jpg';
+import tictactoeHover from '../assets/projects/tictactoeHover.jpg';
+import typeTheDictionary from '../assets/projects/typeTheDictionary.png';
+import typeTheDictionaryHover from '../assets/projects/typeTheDictionaryHover.png';
 // import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -41,6 +43,13 @@ const Portfolio = () => {
             hoverSrc: tictactoeHover,
             alt: "Thumbnail for TicTacToe game.",
             codeHref: "https://github.com/AndrewJCate/TicTacToeApp"
+        },
+        {
+            id: 5,
+            src: progressTracker,
+            hoverSrc: progressTrackerHover,
+            alt: "Thumbnail for Student Progress Tracker Android app.",
+            codeHref: "https://github.com/AndrewJCate/Student-Progress-Tracker"
         },
         // {
         //     id: 4,

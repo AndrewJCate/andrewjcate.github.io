@@ -6,6 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'android-blue': '#4285f4',
+        'android-teal': '#3ddc84',
         'angular-red-light': '#dd0031',
         'angular-red-dark': '#c3002f',
         'aws-orange': '#ff9900',
@@ -14,6 +16,8 @@ module.exports = {
         'css-cyan-light': '#039be5',
         'css-cyan-dark': '#0277bd',
         'docker-blue': '#1d63ed',
+        'gimp-brown-light': '#866c55',
+        'gimp-brown-dark': '#77604c',
         'html-orange-light': '#f16529',
         'html-orange-dark': '#e44d26',
         'intellij-pink': '#fe315d',

@@ -1,8 +1,10 @@
 import React from 'react';
+import androidStudio from "../assets/icons/androidstudio.png";
 import angular from "../assets/icons/angular.png";
 import aws from "../assets/icons/aws.png";
 import css from "../assets/icons/css.png";
 import docker from "../assets/icons/docker.png";
+import gimp from "../assets/icons/gimp.png";
 import html from "../assets/icons/html.png";
 import intellij from "../assets/icons/intellij.png";
 import invision from "../assets/icons/invision.png";
@@ -99,6 +101,20 @@ const Experience = () => {
             alt: 'Invision logo',
             title: 'Invision',
             style: 'shadow-invision-pink'
+        },
+        {
+            id: 13,
+            src: androidStudio,
+            alt: 'Android Studio logo',
+            title: 'Android Studio',
+            style: 'shadow-android-teal'
+        },
+        {
+            id: 14,
+            src: gimp,
+            alt: 'Gimp logo',
+            title: 'Gimp',
+            style: 'shadow-gimp-brown-light'
         },
     ];
 

@@ -48,12 +48,12 @@ const SocialLinks = () => {
     ];
 
   return (
-    <div className='hidden min-[1200px]:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden min-[1280px]:flex flex-col top-[35%] left-0 fixed min'>
 
         <ul>
 
-            {links.map( ({id, child, href, style, download}) => (   // eslint-disable-next-line
-
+            {links.map( ({id, child, href, style, download}) => (
+                // eslint-disable-next-line
                 <li key={id} className={'flex justify-between items-center w-36 h-14 px-4 ml-[-85px] hover:ml-[-4px] hover:rounded-md duration-300 bg-gray-600' + " " + style}>
 
                     <a 

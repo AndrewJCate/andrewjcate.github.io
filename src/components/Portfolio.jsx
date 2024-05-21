@@ -67,7 +67,7 @@ const Portfolio = () => {
                 <p className='text-lg text-gray-300 py-6'>Here is some of my work.</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 max-sm:px-3'>
 
                 {projects.map(({id, src, hoverSrc, alt, demoHref, codeHref, link}) => (
 
@@ -118,8 +118,6 @@ const Portfolio = () => {
                             {/* <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>
                                 Code
                             </button> */}
-
-                                
 
                             {/* <Link to={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125'>Demo</Link> */}
                         </div>

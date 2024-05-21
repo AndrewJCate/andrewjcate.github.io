@@ -67,7 +67,7 @@ const Portfolio = () => {
                 <p className='text-lg text-gray-300 py-6'>Here is some of my work.</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 max-sm:px-3'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-3 sm:px-0'>
 
                 {projects.map(({id, src, hoverSrc, alt, demoHref, codeHref, link}) => (
 

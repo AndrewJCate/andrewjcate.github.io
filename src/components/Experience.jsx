@@ -122,7 +122,7 @@ const Experience = () => {
     <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full md:h-dvh pt-20'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white'>
 
-            <div className='pb-8'>
+            <div className='pb-2'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</p>
                 <p className='text-lg text-gray-300 py-6'>These are the technologies I have worked with the most.</p>
             </div>

@@ -41,7 +41,7 @@ const Contact = () => {
     <div name='contact' className='w-full h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
 
-            <div className='pb-4 mt-36'>
+            <div className='pb-2 pt-20 md:pt-36'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
                 <p className='text-lg text-gray-300 py-6'>I'd love to chat, even if it's just to say hello!</p>
             </div>

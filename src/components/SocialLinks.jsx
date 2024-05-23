@@ -48,7 +48,7 @@ const SocialLinks = () => {
     ];
 
   return (
-    <div className='hidden min-[1280px]:flex flex-col top-[35%] left-0 fixed min'>
+    <div className='hidden min-[1280px]:flex flex-col top-[35%] left-0 fixed'>
 
         <ul>
 

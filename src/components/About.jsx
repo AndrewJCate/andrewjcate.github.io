@@ -13,7 +13,7 @@ const About = () => {
 
             <br></br>
 
-            <p className='text-gray-300 text-lg'>I left my 8 year career in the training field to pursue my passion for programming. After several years of self teaching, I attended a university and earned my degree in Software Engineering. I created this website to showcase some of the projects I have worked on. I am excited to continue growing my skills and expanding my knowledge in this area.</p>
+            <p className='text-gray-300 text-lg'>I left my 8 year career in the training field to pursue my passion for programming. After several years of self teaching, I attended a university and earned my degree in Software Engineering. I created this website to showcase some of the projects I have worked on. I am excited to continue growing my skills and expanding my knowledge!</p>
 
             <br></br>
 

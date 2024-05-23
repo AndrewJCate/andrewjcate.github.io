@@ -5,10 +5,10 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className='mt-800 h-dvh w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-white'>
+    <div name="home" className='h-dvh w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-white mt-12 md:mt-0'>
             
-            <div className='flex flex-col justify-center h-full'> {/* max-md:mt-40 */}
+            <div className='flex flex-col justify-center h-auto'> {/* max-md:mt-40 */}
 
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Software Engineer</h2>
                 <p className='text-gray-300 py-4 max-w-md'>I recently graduated and am excited to join a team and get some experience! I really like back-end work and have experience with Java.</p>
@@ -33,7 +33,7 @@ const Home = () => {
 
             </div>
 
-            <div className='max-md:-mt-14 max-md:pb-14 mt'>
+            <div className='mt-5'> {/* mt-6 mb-20 md:my-0 */}
                 <img src={ HeroImage } alt='This is me, hello!' className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
             </div>
 

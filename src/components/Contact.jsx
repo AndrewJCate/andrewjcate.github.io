@@ -32,7 +32,7 @@ const Contact = () => {
             child: (
                 <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
             ),
-            href: '/resume.txt',    // TODO: replace with actual resume pdf
+            href: '/resume.pdf',
             download: true,
         }
     ];

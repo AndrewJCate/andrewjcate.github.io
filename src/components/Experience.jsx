@@ -57,7 +57,7 @@ const Experience = () => {
             id: 6,
             src: spring,
             alt: 'Spring logo',
-            title: 'Spring',
+            title: 'Spring Boot',
             style: 'shadow-spring-green'
         },
         {

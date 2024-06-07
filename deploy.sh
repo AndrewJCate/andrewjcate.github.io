@@ -15,6 +15,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:{USERNAME}/{USERNAME}.github.io.git main
 
 # deploying to https://AndrewJCate.github.io/Portfolio-Website
-git push -f git@github.com:AndrewJCate/Portfolio-Website.git master:gh-pages
+git pull -f git@github.com:AndrewJCate/andrewjcate.github.io.git master:gh-pages
+git push -f git@github.com:AndrewJCate/andrewjcate.github.io.git master:gh-pages
 
 # TO USE: in terminal type "bash deploy.sh"

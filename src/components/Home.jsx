@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroImage from '../assets/heroImage.png';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";

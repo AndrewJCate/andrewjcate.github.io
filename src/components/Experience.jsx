@@ -7,12 +7,28 @@ const Experience = () => {
         {
             id: 1,
             src: Java,
+            src: Java,
             alt: 'Java logo',
             title: 'Java',
             style: 'shadow-java-orange'
         },
         {
             id: 2,
+            src: React,
+            alt: 'React logo',
+            title: 'React',
+            style: 'shadow-react-blue'
+        },
+        {
+            id: 3,
+            src: Tailwind,
+            alt: 'Tailwind logo',
+            title: 'Tailwind',
+            style: 'shadow-tailwind-blue'
+        },
+        {
+            id: 4,
+            src: Angular,
             src: React,
             alt: 'React logo',
             title: 'React',
@@ -35,11 +51,15 @@ const Experience = () => {
         {
             id: 5,
             src: Html,
+            id: 5,
+            src: Html,
             alt: 'HTML logo',
             title: 'HTML',
             style: 'shadow-html-orange-light'
         },
         {
+            id: 6,
+            src: Css,
             id: 6,
             src: Css,
             alt: 'CSS logo',
@@ -49,11 +69,15 @@ const Experience = () => {
         {
             id: 7,
             src: JavaScript,
+            id: 7,
+            src: JavaScript,
             alt: 'JavaScript logo',
             title: 'JavaScript',
             style: 'shadow-js-yellow-dark'
         },
         {
+            id: 8,
+            src: Spring,
             id: 8,
             src: Spring,
             alt: 'Spring logo',
@@ -63,11 +87,15 @@ const Experience = () => {
         {
             id: 9,
             src: Aws,
+            id: 9,
+            src: Aws,
             alt: 'AWS logo',
             title: 'AWS',
             style: 'shadow-aws-orange'
         },
         {
+            id: 10,
+            src: MySql,
             id: 10,
             src: MySql,
             alt: 'MySQL logo',
@@ -77,11 +105,15 @@ const Experience = () => {
         {
             id: 11,
             src: IntelliJ,
+            id: 11,
+            src: IntelliJ,
             alt: 'IntelliJ logo',
             title: 'IntelliJ',
             style: 'shadow-intellij-purple'
         },
         {
+            id: 12,
+            src: VsCode,
             id: 12,
             src: VsCode,
             alt: 'VS Code logo',
@@ -91,6 +123,8 @@ const Experience = () => {
         {
             id: 13,
             src: Invision,
+            id: 13,
+            src: Invision,
             alt: 'Invision logo',
             title: 'Invision',
             style: 'shadow-invision-pink'
@@ -98,11 +132,15 @@ const Experience = () => {
         {
             id: 14,
             src: AndroidStudio,
+            id: 14,
+            src: AndroidStudio,
             alt: 'Android Studio logo',
             title: 'Android Studio',
             style: 'shadow-android-teal'
         },
         {
+            id: 15,
+            src: Gimp,
             id: 15,
             src: Gimp,
             alt: 'Gimp logo',

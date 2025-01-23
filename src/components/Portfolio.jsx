@@ -1,4 +1,4 @@
-import { Cinemate, CinemateHover, CustomTimers, CustomTimersHover, PortfolioSite, PortfolioSiteHover, ProgressTracker, ProgressTrackerHover, TypeTheDictionary, TypeTheDictionaryHover } from '../assets/projects/index';
+import { Cinemate, CinemateHover, CustomTimers, CustomTimersHover, PortfolioSite, PortfolioSiteHover, ProgressTracker, ProgressTrackerHover, TypeTheDictionary, TypeTheDictionaryHover } from '../assets/project-images/index';
 
 const Portfolio = () => {
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1edc64cc.css",
-    "main.js": "/static/js/main.9e598fd2.js",
+    "main.css": "/static/css/main.b452afca.css",
+    "main.js": "/static/js/main.996f28de.js",
     "static/media/portfolio.png": "/static/media/portfolio.9901c4924d1cca6a4eeb.png",
     "static/media/customTimersHover.png": "/static/media/customTimersHover.7d74c894815470d4970f.png",
     "static/media/heroImage.png": "/static/media/heroImage.a7bc8b84dc8f17c45083.png",
@@ -10,26 +10,28 @@
     "static/media/typeTheDictionary.png": "/static/media/typeTheDictionary.dbc064d492d9970c4beb.png",
     "static/media/typeTheDictionaryHover.png": "/static/media/typeTheDictionaryHover.80aad962e8782f34d741.png",
     "static/media/progressTrackerHover.png": "/static/media/progressTrackerHover.94410e414f722b4884b3.png",
+    "static/media/cinemateHover.png": "/static/media/cinemateHover.7b923157b2c55db6e12c.png",
     "static/media/customTimers.jpg": "/static/media/customTimers.059b98e64d7d12b89d57.jpg",
+    "static/media/cinemate.png": "/static/media/cinemate.2fef9964236ea3a49f16.png",
     "static/media/gimp.png": "/static/media/gimp.23fe6d61747358b746e4.png",
-    "static/media/tictactoeHover.jpg": "/static/media/tictactoeHover.6a40cbf153425059758a.jpg",
-    "static/media/tictactoe.jpg": "/static/media/tictactoe.85ab5a6a284e10c27d58.jpg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/intellij.png": "/static/media/intellij.016ab93146707747d5db.png",
     "static/media/spring.png": "/static/media/spring.b2a150081bc296010128.png",
     "static/media/mysql.png": "/static/media/mysql.07a17c458322e6c9a068.png",
     "static/media/vscode.png": "/static/media/vscode.95b955d21ee11f27684d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/androidstudio.png": "/static/media/androidstudio.1d7fa6dc75ece3422dfd.png",
     "static/media/aws.png": "/static/media/aws.56bfb454fed9d70f18a9.png",
     "static/media/angular.png": "/static/media/angular.8a21c8983e1859ec9bbc.png",
     "static/media/javascript.png": "/static/media/javascript.c73c2799264ba1954ad1.png",
     "index.html": "/index.html",
-    "main.1edc64cc.css.map": "/static/css/main.1edc64cc.css.map",
-    "main.9e598fd2.js.map": "/static/js/main.9e598fd2.js.map"
+    "main.b452afca.css.map": "/static/css/main.b452afca.css.map",
+    "main.996f28de.js.map": "/static/js/main.996f28de.js.map"
   },
   "entrypoints": [
-    "static/css/main.1edc64cc.css",
-    "static/js/main.9e598fd2.js"
+    "static/css/main.b452afca.css",
+    "static/js/main.996f28de.js"
   ]
 }

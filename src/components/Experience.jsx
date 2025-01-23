@@ -1,18 +1,4 @@
-import React from 'react';
-import androidStudio from "../assets/icons/androidstudio.png";
-import angular from "../assets/icons/angular.png";
-import aws from "../assets/icons/aws.png";
-import css from "../assets/icons/css.png";
-import docker from "../assets/icons/docker.png";
-import gimp from "../assets/icons/gimp.png";
-import html from "../assets/icons/html.png";
-import intellij from "../assets/icons/intellij.png";
-import invision from "../assets/icons/invision.png";
-import java from "../assets/icons/java.png";
-import javascript from "../assets/icons/javascript.png";
-import mysql from "../assets/icons/mysql.png";
-import spring from "../assets/icons/spring.png";
-import vscode from "../assets/icons/vscode.png";
+import { AndroidStudio, Angular, Aws, Css, Gimp, Html, IntelliJ, Invision, Java, JavaScript, MySql, React, Spring, Tailwind, VsCode } from '../assets/icons/index';
 
 
 const Experience = () => {
@@ -20,98 +6,105 @@ const Experience = () => {
     const technologies = [
         {
             id: 1,
-            src: java,
+            src: Java,
             alt: 'Java logo',
             title: 'Java',
             style: 'shadow-java-orange'
         },
         {
             id: 2,
-            src: angular,
+            src: React,
+            alt: 'React logo',
+            title: 'React',
+            style: 'shadow-react-blue'
+        },
+        {
+            id: 3,
+            src: Tailwind,
+            alt: 'Tailwind logo',
+            title: 'Tailwind',
+            style: 'shadow-tailwind-blue'
+        },
+        {
+            id: 4,
+            src: Angular,
             alt: 'Angular logo',
             title: 'Angular',
             style: 'shadow-angular-red-light'
         },
         {
-            id: 3,
-            src: html,
+            id: 5,
+            src: Html,
             alt: 'HTML logo',
             title: 'HTML',
             style: 'shadow-html-orange-light'
         },
         {
-            id: 4,
-            src: css,
+            id: 6,
+            src: Css,
             alt: 'CSS logo',
             title: 'CSS',
             style: 'shadow-css-cyan-light'
         },
         {
-            id: 5,
-            src: javascript,
+            id: 7,
+            src: JavaScript,
             alt: 'JavaScript logo',
             title: 'JavaScript',
             style: 'shadow-js-yellow-dark'
         },
         {
-            id: 6,
-            src: spring,
+            id: 8,
+            src: Spring,
             alt: 'Spring logo',
             title: 'Spring Boot',
             style: 'shadow-spring-green'
         },
         {
-            id: 7,
-            src: aws,
+            id: 9,
+            src: Aws,
             alt: 'AWS logo',
             title: 'AWS',
             style: 'shadow-aws-orange'
         },
         {
-            id: 8,
-            src: mysql,
+            id: 10,
+            src: MySql,
             alt: 'MySQL logo',
             title: 'MySQL',
             style: 'shadow-mysql-blue'
         },
         {
-            id: 9,
-            src: docker,
-            alt: 'Docker logo',
-            title: 'Docker',
-            style: 'shadow-docker-blue'
-        },
-        {
-            id: 10,
-            src: intellij,
+            id: 11,
+            src: IntelliJ,
             alt: 'IntelliJ logo',
             title: 'IntelliJ',
             style: 'shadow-intellij-purple'
         },
         {
-            id: 11,
-            src: vscode,
+            id: 12,
+            src: VsCode,
             alt: 'VS Code logo',
             title: 'VS Code',
             style: 'shadow-vscode-blue-light'
         },
         {
-            id: 12,
-            src: invision,
+            id: 13,
+            src: Invision,
             alt: 'Invision logo',
             title: 'Invision',
             style: 'shadow-invision-pink'
         },
         {
-            id: 13,
-            src: androidStudio,
+            id: 14,
+            src: AndroidStudio,
             alt: 'Android Studio logo',
             title: 'Android Studio',
             style: 'shadow-android-teal'
         },
         {
-            id: 14,
-            src: gimp,
+            id: 15,
+            src: Gimp,
             alt: 'Gimp logo',
             title: 'Gimp',
             style: 'shadow-gimp-brown-light'

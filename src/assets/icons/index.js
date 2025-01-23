@@ -1,0 +1,16 @@
+export { default as AndroidStudio } from "./androidstudio.png";
+export { default as Angular } from "./angular.png";
+export { default as Aws } from "./aws.png";
+export { default as Css } from "./css.png";
+export { default as Docker } from "./docker.png";
+export { default as Gimp } from "./gimp.png";
+export { default as Html } from "./html.png";
+export { default as IntelliJ } from "./intellij.png";
+export { default as Invision } from "./invision.png";
+export { default as Java } from "./java.png";
+export { default as JavaScript } from "./javascript.png";
+export { default as MySql } from "./mysql.png";
+export { default as React } from "./react.png";
+export { default as Spring } from "./spring.png";
+export { default as Tailwind } from "./tailwind.png";
+export { default as VsCode } from "./vscode.png";

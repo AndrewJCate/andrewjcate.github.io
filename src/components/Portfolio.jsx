@@ -1,61 +1,45 @@
-import React from 'react';
-
-import customTimers from '../assets/projects/customTimers.jpg';
-import customTimersHover from '../assets/projects/customTimersHover.png';
-import portfolio from '../assets/projects/portfolio.png';
-import portfolioHover from '../assets/projects/portfolioHover.png';
-import progressTracker from '../assets/projects/progressTracker.png';
-import progressTrackerHover from '../assets/projects/progressTrackerHover.png';
-import tictactoe from '../assets/projects/tictactoe.jpg';
-import tictactoeHover from '../assets/projects/tictactoeHover.jpg';
-import typeTheDictionary from '../assets/projects/typeTheDictionary.png';
-import typeTheDictionaryHover from '../assets/projects/typeTheDictionaryHover.png';
-// import { Link } from 'react-router-dom';
+import { Cinemate, CinemateHover, CustomTimers, CustomTimersHover, PortfolioSite, PortfolioSiteHover, ProgressTracker, ProgressTrackerHover, TypeTheDictionary, TypeTheDictionaryHover } from '../assets/projects/index';
 
 const Portfolio = () => {
 
     const projects = [
         {
             id: 1,
-            src: portfolio,
-            hoverSrc: portfolioHover,
+            src: PortfolioSite,
+            hoverSrc: PortfolioSiteHover,
             alt: "Thumbnail for Portfolio website.",
             codeHref: "https://github.com/AndrewJCate/Portfolio-Website"
         },
         {
             id: 2,
-            src: customTimers,
-            hoverSrc: customTimersHover,
+            src: CustomTimers,
+            hoverSrc: CustomTimersHover,
             alt: "Thumbnail for Custom Timers website.",
-            demoHref: "https://customtimers.net",
+            siteHref: "https://customtimers.net",
             codeHref: "https://gitfront.io/r/andrewcate/sqg1uDGywjA4/Custom-Timers-Website/"
         },
         {
             id: 3,
-            src: typeTheDictionary,
-            hoverSrc: typeTheDictionaryHover,
+            src: Cinemate,
+            hoverSrc: CinemateHover,
+            alt: "Thumbnail for Cinemate website.",
+            siteHref: "https://cinemate-ajc.netlify.app/",
+            codeHref: "https://github.com/AndrewJCate/cinemate"
+        },
+        {
+            id: 4,
+            src: TypeTheDictionary,
+            hoverSrc: TypeTheDictionaryHover,
             alt: "Thumbnail for Type The Dictionary game.",
             codeHref: "https://github.com/AndrewJCate/Typing-The-Dictionary"
         },
         {
-            id: 4,
-            src: tictactoe,
-            hoverSrc: tictactoeHover,
-            alt: "Thumbnail for TicTacToe game.",
-            codeHref: "https://github.com/AndrewJCate/TicTacToeApp"
-        },
-        {
             id: 5,
-            src: progressTracker,
-            hoverSrc: progressTrackerHover,
+            src: ProgressTracker,
+            hoverSrc: ProgressTrackerHover,
             alt: "Thumbnail for Student Progress Tracker Android app.",
             codeHref: "https://gitfront.io/r/andrewcate/W1TXPFr5cikZ/Student-Progress-Tracker/"
         },
-        // {
-        //     id: 4,
-        //     src: installNode,
-        //     link: '/customTimers'
-        // },
     ];
 
   return (
@@ -64,12 +48,12 @@ const Portfolio = () => {
 
             <div className='pb-2'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                <p className='text-lg text-gray-300 py-6'>Here is some of my work.</p>
+                <p className='text-lg text-gray-300 py-6'>Here are some of my projects.</p>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-3 sm:px-0'>
 
-                {projects.map(({id, src, hoverSrc, alt, demoHref, codeHref, link}) => (
+                {projects.map(({id, src, hoverSrc, alt, siteHref, codeHref, link}) => (
 
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 
@@ -84,15 +68,15 @@ const Portfolio = () => {
                         
                         <div className='flex justify-center items-center'>
 
-                            {demoHref ? (
-                                <div className='flex justify-center items-center'>
+                            {siteHref ? (
+                                <div className='flex'>
                                     <a 
                                         className='w-1/2 px-10 py-2 m-4 duration-200 hover:scale-125' 
-                                        href={demoHref} 
+                                        href={siteHref} 
                                         target='_blank' 
                                         rel="noreferrer"
                                     >
-                                        Demo
+                                        Website
                                     </a> 
                                     
                                     <a 

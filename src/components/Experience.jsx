@@ -1,12 +1,10 @@
 import { AndroidStudio, Angular, Aws, Css, Gimp, Html, IntelliJ, Invision, Java, JavaScript, MySql, React, Spring, Tailwind, VsCode } from '../assets/icons/index';
 
-
 const Experience = () => {
 
     const technologies = [
         {
             id: 1,
-            src: Java,
             src: Java,
             alt: 'Java logo',
             title: 'Java',
@@ -29,28 +27,11 @@ const Experience = () => {
         {
             id: 4,
             src: Angular,
-            src: React,
             alt: 'React logo',
             title: 'React',
             style: 'shadow-react-blue'
         },
         {
-            id: 3,
-            src: Tailwind,
-            alt: 'Tailwind logo',
-            title: 'Tailwind',
-            style: 'shadow-tailwind-blue'
-        },
-        {
-            id: 4,
-            src: Angular,
-            alt: 'Angular logo',
-            title: 'Angular',
-            style: 'shadow-angular-red-light'
-        },
-        {
-            id: 5,
-            src: Html,
             id: 5,
             src: Html,
             alt: 'HTML logo',
@@ -60,15 +41,11 @@ const Experience = () => {
         {
             id: 6,
             src: Css,
-            id: 6,
-            src: Css,
             alt: 'CSS logo',
             title: 'CSS',
             style: 'shadow-css-cyan-light'
         },
         {
-            id: 7,
-            src: JavaScript,
             id: 7,
             src: JavaScript,
             alt: 'JavaScript logo',
@@ -78,15 +55,11 @@ const Experience = () => {
         {
             id: 8,
             src: Spring,
-            id: 8,
-            src: Spring,
             alt: 'Spring logo',
             title: 'Spring Boot',
             style: 'shadow-spring-green'
         },
         {
-            id: 9,
-            src: Aws,
             id: 9,
             src: Aws,
             alt: 'AWS logo',
@@ -96,15 +69,11 @@ const Experience = () => {
         {
             id: 10,
             src: MySql,
-            id: 10,
-            src: MySql,
             alt: 'MySQL logo',
             title: 'MySQL',
             style: 'shadow-mysql-blue'
         },
         {
-            id: 11,
-            src: IntelliJ,
             id: 11,
             src: IntelliJ,
             alt: 'IntelliJ logo',
@@ -114,15 +83,11 @@ const Experience = () => {
         {
             id: 12,
             src: VsCode,
-            id: 12,
-            src: VsCode,
             alt: 'VS Code logo',
             title: 'VS Code',
             style: 'shadow-vscode-blue-light'
         },
         {
-            id: 13,
-            src: Invision,
             id: 13,
             src: Invision,
             alt: 'Invision logo',
@@ -132,15 +97,11 @@ const Experience = () => {
         {
             id: 14,
             src: AndroidStudio,
-            id: 14,
-            src: AndroidStudio,
             alt: 'Android Studio logo',
             title: 'Android Studio',
             style: 'shadow-android-teal'
         },
         {
-            id: 15,
-            src: Gimp,
             id: 15,
             src: Gimp,
             alt: 'Gimp logo',
@@ -163,7 +124,7 @@ const Experience = () => {
                 {technologies.map(({id, src, alt, title, style}) => (
 
                     // <div key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
-                    <div key={id} className={`shadow-md py-2 rounded-lg ${style}`}>
+                    <div key={id} className={`shadow-md py-2 rounded-lg min-w-20 ${style}`}>
                         <img src={src} alt={alt} className='w-20 mx-auto'></img>
                         <p className='mt-4'>{title}</p>
                     </div>

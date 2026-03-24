@@ -34,14 +34,14 @@ I set up this portfolio website to demonstrate some of the projects I worked on 
 
 ### Built With
 
-* [![CSS3][CSS3.com]][CSS3-url]
-* [![Gimp][Gimp.com]][Gimp-url]
-* [![GitHub][GitHub.com]][GitHub-url]
-* [![GitHubPages][GitHubPages.com]][GitHubPages-url]
-* [![HTML][HTML5.com]][HTML5-url]
-* [![JavaScript][JavaScript.com]][JavaScript-url]
-* [![React][React.js]][React-url]
-* [![VSCode][VSCode.com]][VSCode-url]
+[![CSS3][CSS3.com]][CSS3-url]
+[![Gimp][Gimp.com]][Gimp-url]
+[![GitHub][GitHub.com]][GitHub-url]
+[![GitHubPages][GitHubPages.com]][GitHubPages-url]
+[![HTML][HTML5.com]][HTML5-url]
+[![JavaScript][JavaScript.com]][JavaScript-url]
+[![React][React.js]][React-url]
+[![VSCode][VSCode.com]][VSCode-url]
 
 
 

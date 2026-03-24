@@ -15,7 +15,7 @@ const Portfolio = () => {
             src: CustomTimers,
             hoverSrc: CustomTimersHover,
             alt: "Thumbnail for Custom Timers website.",
-            siteHref: "https://customtimers.net",
+            // siteHref: "https://customtimers.net",
             codeHref: "https://gitfront.io/r/andrewcate/sqg1uDGywjA4/Custom-Timers-Website/"
         },
         {
